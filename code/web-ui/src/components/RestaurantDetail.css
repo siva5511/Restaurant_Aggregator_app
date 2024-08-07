@@ -1,0 +1,36 @@
+/* src/components/RestaurantDetail.css */
+
+.body-background {
+  background-color: #f0f4f8; /* background color */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant-detail-container {
+  background-color: #ffffff; /* background color for details area */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  margin:10px;
+  height:90vh;
+}
+
+.restaurant-image {
+  max-width: 100%;
+  height: 30vh;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  color: #555;
+}

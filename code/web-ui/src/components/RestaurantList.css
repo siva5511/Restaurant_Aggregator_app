@@ -1,0 +1,76 @@
+.restaurant-list-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-group {
+  flex: 1;
+  min-width: 200px;
+}
+
+.filter-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.apply-filters-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.restaurant-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.restaurant-list li {
+  margin-bottom: 10px;
+}
+
+.restaurant-list a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.restaurant-list a:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+}
