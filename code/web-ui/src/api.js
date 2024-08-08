@@ -19,7 +19,7 @@ export const fetchRestaurants = async (page = 1, limit = 15, country = '', avgCo
     return await response.json();
   } catch (error) {
     console.error('Error fetching restaurants:', error);
-    return { restaurants: [], totalCount: 0, page: 1, totalPages: 1 }; // Return default values if there's an error
+    return { restaurants: [], totalCount: 0, page: 1, totalPages: 1 }; 
   }
 };
 

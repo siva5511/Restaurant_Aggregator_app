@@ -91,18 +91,18 @@
 .restaurant-list {
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line */
-    gap: 20px; /* Adjust the spacing between items as needed */
+    flex-wrap: wrap; 
+    gap: 20px; 
     padding-left: 20px;
     padding-right: 20px;
   }
   
   .restaurant-list li {
-    flex: 1 1 calc(33.333% - 20px); /* Adjust the percentage for the number of columns */
-    box-sizing: border-box; /* Includes padding and border in the item's width */
-    border: 1px solid #ddd; /* Optional: add a border around each item */
-    border-radius: 5px; /* Optional: rounded corners for each item */
-    padding: 10px; /* Space inside each item */
+    flex: 1 1 calc(33.333% - 20px); 
+    box-sizing: border-box; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 10px; 
   }
   
 

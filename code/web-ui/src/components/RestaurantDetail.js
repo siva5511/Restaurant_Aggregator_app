@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom';
 import { fetchRestaurantById } from '../api'; 
 import './RestaurantDetail.css'; 
 
-
 import restaurantImage from '../assets/pexels-pixabay-265940.jpg'; 
 
 const RestaurantDetail = () => {

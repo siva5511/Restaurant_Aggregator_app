@@ -16,7 +16,7 @@
 
 .footer-section{
   flex: 1;
-  min-width: 200px; /* Minimum width for each section */
+  min-width: 200px; /* Min width for each section */
 }
 
 .footer-section h4 {
@@ -32,5 +32,5 @@
 .footer-bottom {
   text-align: center;
   font-size: 14px;
-  color: #888; /* Grey text color */
+  color: #888; /*text color */
 }

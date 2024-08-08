@@ -1,8 +1,6 @@
 /* src/components/RestaurantDetail.css */
-
-
 .restaurant-detail-container {
-  background-color: #ffffff; /* background color for details area */
+  background-color: #ffffff; 
   text-align: center;
   width:100vw ;
   height:auto;
