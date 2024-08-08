@@ -35,3 +35,18 @@ export const fetchRestaurantById = async (id) => {
     return null;
   }
 };
+
+
+// Fetch country details by country code
+export const fetchCountryByCode = async (code) => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/countries/${code}`);
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('Error fetching country details:', error);
+    return null;
+  }
+};

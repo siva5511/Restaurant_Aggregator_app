@@ -108,5 +108,17 @@ def get_restaurant_by_id(restaurant_id):
         else:
             return jsonify({"error": "Restaurant not found"}), 404
 
+
+
+@app.route('/countries/<country_code>', methods=['GET'])
+def get_country_by_code(country_code):
+    query = "SELECT \"Country\" FROM countries WHERE \"Country Code\" = :country_code"
+    with engine.connect() as conn:
+        result = conn.execute(text(query), {"country_code": country_code}).fetchone()
+        if result:
+            return jsonify({"name": result[0]})
+        return jsonify({"error": "Country not found"}), 404
+
+
 if __name__ == '__main__':
     app.run(debug=True)
