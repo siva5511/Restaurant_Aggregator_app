@@ -1,6 +1,6 @@
 const API_BASE_URL = 'http://localhost:5000';
 
-export const fetchRestaurants = async (page = 1, limit = 20, country = '', avgCost = '', cuisines = '', search = '') => {
+export const fetchRestaurants = async (page = 1, limit = 15, country = '', avgCost = '', cuisines = '', search = '') => {
   try {
     const queryParams = new URLSearchParams({
       page,

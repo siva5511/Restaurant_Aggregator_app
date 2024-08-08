@@ -1,0 +1,36 @@
+.footer {
+  background-color: #f8f8f8; /* Light grey background color */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #ddd; /* Light border at the top */
+  margin-top: 20px; /* Space between main content and footer */
+}
+
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between sections */
+  margin-bottom: 20px;
+}
+
+.footer-section{
+  flex: 1;
+  min-width: 200px; /* Minimum width for each section */
+}
+
+.footer-section h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #888; /* Grey text color */
+}

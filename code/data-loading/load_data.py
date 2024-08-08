@@ -19,16 +19,12 @@ try:
 except Exception as e:
     print(f"Error loading restaurants data: {e}")
     raise
-
-
-
 # load country data
 try:
     countries_data = load_csv_with_fallback(r'C:\Users\nvsiv\OneDrive\Desktop\Assignment-TypeFace\code\data-loading\countries.csv')
 except Exception as e:
     print(f"Error loading countries data: {e}")
     raise
-
 
 
 

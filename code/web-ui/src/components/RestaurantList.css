@@ -1,51 +1,128 @@
+.html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .name-and-filters{
+    background-image: url('C:\Users\nvsiv\OneDrive\Desktop\Assignment-TypeFace\code\web-ui\src\assets\pexels-chanwalrus-958545.jpg');
+    background-size:cover;
+    background-repeat: none;
+    height:50vh;
+    background-position:bottom;
+
+  }
+
 .restaurant-list-container {
-  padding: 20px;
+  padding-bottom: 20px;
+  padding-top:0px;
   font-family: Arial, sans-serif;
+
+
 }
 
-h1 {
+.name-cont{
+
+    height:30vh;
+    
+}
+
+.name-stl {
   text-align: center;
   margin-bottom: 20px;
+  font-size:75px;
+  font-family:Lora;
+  color:white;
+  font: weight 900px;
+  padding-top:0px;
+  margin-top:0px;
+}
+
+.caption-stl{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size:30px;
+    font-family:Lora;
+    color: white;
 }
 
 .filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px; 
   margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:10px;
 }
 
 .filter-group {
   flex: 1;
   min-width: 200px;
+
+  padding: 10px;
+  box-sizing: border-box; 
+  background-color:transparent;
 }
 
 .filter-group input {
   width: 100%;
   padding: 10px;
   font-size: 16px;
+  box-sizing: border-box; 
+  border: 2px solid #000;
+  border-radius: 5px;
+
 }
 
 .apply-filters-button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 10px;
+  background-color: white;
+  color:#007bff;
+  font-weight: bold;
+  height:45px;
 }
 
 .restaurant-list {
-  list-style-type: none;
-  padding: 0;
-}
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    gap: 20px; /* Adjust the spacing between items as needed */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .restaurant-list li {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust the percentage for the number of columns */
+    box-sizing: border-box; /* Includes padding and border in the item's width */
+    border: 1px solid #ddd; /* Optional: add a border around each item */
+    border-radius: 5px; /* Optional: rounded corners for each item */
+    padding: 10px; /* Space inside each item */
+  }
+  
 
-.restaurant-list li {
-  margin-bottom: 10px;
-}
-
+  
 .restaurant-list a {
   text-decoration: none;
   color: #007bff;
   font-weight: bold;
+
 }
+
+
+.restaurant-list img.restaurant-image {
+  width: 100px; 
+  height: 100px; 
+  object-fit: cover; 
+  margin-right: 10px; 
+  vertical-align: middle; 
+}
+
 
 .restaurant-list a:hover {
   text-decoration: underline;
@@ -55,14 +132,10 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  align-items: center;
 }
 
-.pagination button {
-  padding: 10px 20px;
-  margin: 0 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
+
 
 .loading {
   text-align: center;
@@ -73,4 +146,17 @@ h1 {
   color: red;
   text-align: center;
   font-size: 18px;
+}
+
+.nav-bttn{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color:#E73C07;
+    color:white;
+    font-weight: bold;
+    margin-right:20px;
+    margin-left:20px;
+    width:125px;
 }

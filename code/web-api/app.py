@@ -20,7 +20,7 @@ def get_country_code(country_name):
 @app.route('/restaurants', methods=['GET'])
 def get_restaurants():
     page = request.args.get('page', 1, type=int)
-    limit = request.args.get('limit', 20, type=int)
+    limit = request.args.get('limit', 15, type=int)
     country_name = request.args.get('country', '').strip()
     avg_cost = request.args.get('avg_cost', '').strip()
     cuisines = request.args.get('cuisines', '').strip().lower()
