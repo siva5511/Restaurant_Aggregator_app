@@ -64,7 +64,7 @@ const RestaurantDetail = () => {
   return (
     <div className="restaurant-detail-container">
       <header className="header">
-        <h1>Zomato</h1>
+        <h1>Tomato</h1>
       </header>
       <img 
         src={restaurantImage} 

@@ -72,8 +72,8 @@ const RestaurantList = () => {
     <div className="restaurant-list-container">
       <div className='name-and-filters'>
         <div className='name-cont'>
-          <h1 className="name-stl">Zomato</h1>
-          <h2 className="caption-stl">Discover the best food & drinks</h2>
+          <h1 className="name-stl">Tomato</h1>
+          <h2 className="caption-stl">Discover healthy,delicious food & drinks</h2>
         </div>
 
         <div className="filters">

@@ -22,13 +22,13 @@ const Footer = () => {
         </div>
 
         <div className="footer-section">
-          <h4>Zomaverse</h4>
-          <p>Zomato</p>
-          <p>Blinkit</p>
+          <h4>Tomaverse</h4>
+          <p>Tomato</p>
+          <p>linkit</p>
           <p>Feeding India</p>
-          <p>Hyperpure</p>
-          <p>Zomato Live</p>
-          <p>Zomaland</p>
+          <p>Hpure</p>
+          <p>Tomato Live</p>
+          <p>Tomaland</p>
           <p>Weather Union</p>
         </div>
 
@@ -50,7 +50,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>
-          By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.
+          By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Tomato™ Ltd. All rights reserved.
         </p>
       </div>
     </footer>
